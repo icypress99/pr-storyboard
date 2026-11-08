@@ -1,0 +1,16 @@
+build/
+.qtcreator/
+CMakeLists.txt.user
+lib/
+*.dll
+*.gep
+*.a
+*.lib
+*.obj
+*.o
+*.exe
+.DS_Store
+Thumbs.db
+*.user
+.vscode/
+.idea/

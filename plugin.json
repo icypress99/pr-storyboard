@@ -1,0 +1,38 @@
+{
+  "id": "com.gitease.pr-storyboard",
+  "name": "PR Storyboard",
+  "version": "0.1.0",
+  "apiVersion": "1",
+  "capabilities": ["page", "contextMenu"],
+  "author": "GitEase",
+  "description": "Turn your branch into a scrubbable story of intent, then draft and open a PR from that story.",
+  "cppEntry": "lib/pr-storyboard-plugin",
+  "github_url": "https://github.com/icypress99/pr-storyboard",
+  "long_description": "PR Storyboard shows commits ahead of your base as ordered frames — title, heat, and key paths — so you can scrub the story of the branch before sharing. Generate a PR title and body from the frames and create the pull request with gh.",
+  "install_guide": "Open a repository with commits on a feature branch. Open Storyboard from the navigation rail. Pick a base if needed, scrub frames, then Create PR.",
+  "tags": ["pr", "commits", "storyboard", "review", "github"],
+  "features": [
+    {
+      "title": "Commit storyboard",
+      "description": "Horizontal frames for each commit (or clustered group) with +/- heat."
+    },
+    {
+      "title": "Smart clustering",
+      "description": "Merge consecutive commits that share a conventional type or top-level path."
+    },
+    {
+      "title": "PR draft",
+      "description": "Title and Markdown body derived from frames; create with gh pr create."
+    }
+  ],
+  "changelog": [
+    {
+      "version": "0.1.0",
+      "date": "2026-11-08",
+      "notes": [
+        "First release.",
+        "Storyboard strip, clustering, and gh PR create."
+      ]
+    }
+  ]
+}
